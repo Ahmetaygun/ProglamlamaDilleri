@@ -6,9 +6,9 @@ package gramer;
 import java.util.Scanner;
 
 public class Gramer {
-    	 public static boolean dizideVarMı (String word, String[] array) {
+    	 public static boolean dizideVarMı (String kelime, String[] array) {
 	        for (String item : array) {
-	            if (item.equals(word)) {
+	            if (item.equals(kelime)) {
 	                return true;
 	            }
 	        }
