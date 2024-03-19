@@ -1,6 +1,6 @@
 
 
-package com.mycompany.gramer;
+package gramer;
 
 
 import java.util.Scanner;
