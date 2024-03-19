@@ -6,14 +6,6 @@ package gramer;
 import java.util.Scanner;
 
 public class Gramer {
-    	 public static boolean dizideVarMı (String kelime, String[] array) {
-	        for (String item : array) {
-	            if (item.equals(kelime)) {
-	                return true;
-	            }
-	        }
-	        return false;
-	    }
 
 	public static void main(String[] args) {
 		
@@ -42,4 +34,12 @@ public class Gramer {
         }
 	}
 
+    	 public static boolean dizideVarMı (String kelime, String[] array) {
+	        for (String item : array) {
+	            if (item.equals(kelime)) {
+	                return true;
+	            }
+	        }
+	        return false;
+	    }
 }
